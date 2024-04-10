@@ -4,7 +4,9 @@
  * and open the template in the editor.
  */
 package paquete2;
-
+import paquete1.Mensaje;
+import paquete4.Palabra;
+import paquete3.Informacion;
 
 /**
  *
@@ -16,7 +18,8 @@ public class Demo {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        
+        String mensaje= Mensaje.obtenerMensaje();
+       System.out.printf(mensaje+ " con "+ Informacion.obtenerHabitantes());
         // usar printf;
     }
     

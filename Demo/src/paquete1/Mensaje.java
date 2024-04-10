@@ -9,6 +9,7 @@ package paquete1;
  *
  * @author reroes
  */
+import paquete4.Palabra;
 public class Mensaje {
 
     public static String obtenerMensaje() {
