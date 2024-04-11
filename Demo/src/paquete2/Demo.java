@@ -18,8 +18,9 @@ public class Demo {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        String mensaje= Mensaje.obtenerMensaje();
-       System.out.printf(mensaje+ " con "+ Informacion.obtenerHabitantes());
+        String mensaje= Mensaje.obtenerMensaje(); /* obtenemos la informacion que
+       esta dentro del metodo "obtenerMensaje" q esta en la clase Mensaje */
+       System.out.printf(mensaje+ " con " + Informacion.obtenerHabitantes()+"\n");
         // usar printf;
     }
     
